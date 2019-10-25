@@ -8,7 +8,8 @@
 ##
 global:
   imageRegistry: ""
-  imagePullSecrets: [hub-iot]
+  imagePullSecrets:
+    - name: hub-iot
 #     - myRegistryKeySecretName
 
 statefulset:
@@ -39,7 +40,7 @@ image:
   repository: ws-lps/lps-server
   tag: v1.0.0
   pullPolicy: IfNotPresent  # IfNotPresent: 有则不拉（减少流量和操作步骤），Always: 不管tag总拉（适合tag不变时更新）
-  pullSecrets: [hub-iot]
+  pullSecrets: []
   #  - private-registry-key
 
 service:

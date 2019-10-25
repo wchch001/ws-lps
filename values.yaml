@@ -160,7 +160,7 @@ ingress:  # 是否使用nginx暴露域名或端口
 metrics:
   enabled: false
   image:
-    registry: docker.io
+    registry: hub.iot.store
     repository: nginx/nginx-prometheus-exporter
     tag: 0.1.0
     pullPolicy: IfNotPresent

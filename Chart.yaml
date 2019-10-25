@@ -1,0 +1,14 @@
+apiVersion: v1
+appVersion: 1.14.2
+description: Chart for the lps server
+engine: gotpl
+name: ws-lps
+version: 1.0.1
+home: http://lps.wesine.com.cn
+icon: http://lps.wesine.com.cn/logo.png
+keywords:
+- lps
+- wesine
+maintainers:
+- email: wangchc@wesine.com
+  name: wang changcheng

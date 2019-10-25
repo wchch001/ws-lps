@@ -80,4 +80,3 @@ $ helm install --name my-release -f values.yaml ws-lps
 ## Persistence
 
 The [ws-lps image](https://) stores the data and configurations at the `/data` path of the container.
-
